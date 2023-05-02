@@ -1,0 +1,25 @@
+@server = http://localhost:4040
+@endPoint = users
+
+### POST /users/sign-up
+POST {{ server }}/{{ endPoint }}/sign-up HTTP/1.1
+content-type: application/json
+
+{
+    "name": "yarn name test",
+    "email": "yarnmail@email.com",
+    "password": "passfake"
+}
+
+### POST /users/login
+POST {{ server }}/{{ endPoint }}/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "yarnmail@email.com",
+    "password": "passfake"
+}
+
+### GET /users
+GET {{ server }}/{{ endPoint }}/list HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDUxMTA4YmNjYWU3ZGUwMmM1ZmI2OWUiLCJlbWFpbCI6Inlhcm5tYWlsQGVtYWlsLmNvbSIsImlhdCI6MTY4MzAzNDI3M30.-9ix38WqxFINAPRg55QhFJVWaUHtVrHX6iW_yoekUqc
