@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 
 const User = require('../models/User');
 
-const jwtSecret = 'askldoiU&dhj123*1kjdasmda';
+const jwtSecret = process.env.SERVER_JWT_SECRET;
 
 const userController = {
   async signUp(req, res) {

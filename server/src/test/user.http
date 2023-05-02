@@ -22,4 +22,4 @@ content-type: application/json
 
 ### GET /users
 GET {{ server }}/{{ endPoint }}/list HTTP/1.1
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDUxMTA4YmNjYWU3ZGUwMmM1ZmI2OWUiLCJlbWFpbCI6Inlhcm5tYWlsQGVtYWlsLmNvbSIsImlhdCI6MTY4MzAzNDI3M30.-9ix38WqxFINAPRg55QhFJVWaUHtVrHX6iW_yoekUqc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDUxMTA4YmNjYWU3ZGUwMmM1ZmI2OWUiLCJlbWFpbCI6Inlhcm5tYWlsQGVtYWlsLmNvbSIsImlhdCI6MTY4MzAzNTExNH0.GpzxC7FI_tMf3S8oDDFTU5hkF6OT_CJklUZVPOIJcUg
