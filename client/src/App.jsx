@@ -5,7 +5,6 @@ import Dashboard from './components/Dashboard';
 import Form from './components/Form';
 
 function App() {
-  console.log(import.meta.env.VITE_CLIENT_SERVER_URL);
   const [token, setToken] = useState('');
 
   useEffect(() => {
