@@ -1,10 +1,11 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
 const userRoutes = require('./src/routes/users');
 
-const mongoURL = 'mongodb+srv://admin:admin@cluster0.tg8w2zp.mongodb.net/?retryWrites=true&w=majority';
+const mongoURL = process.env.SERVER_MONGO_URL;
 
 const app = express();
 app.use(cors());
